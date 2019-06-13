@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.29001.49
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomersManager.API", "CustomersManager.API\CustomersManager.API.csproj", "{BE9657ED-2D4F-42F0-894A-F6A9829F28C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomersManager.Models", "CustomersManager.Models\CustomersManager.Models.csproj", "{8A3BBFA6-DCED-4109-B05F-B97711FE9876}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomersManager.Models", "CustomersManager.Models\CustomersManager.Models.csproj", "{8A3BBFA6-DCED-4109-B05F-B97711FE9876}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomersManager.Business", "CustomersManager.Business\CustomersManager.Business.csproj", "{2295B49A-F2E1-4070-8313-05498BA6858C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomersManager.Business", "CustomersManager.Business\CustomersManager.Business.csproj", "{2295B49A-F2E1-4070-8313-05498BA6858C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomersManager.XUnitTest", "CustomersManager.XUnitTest\CustomersManager.XUnitTest.csproj", "{09C38252-EC20-4B8F-8E63-26856C3A3D61}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{2295B49A-F2E1-4070-8313-05498BA6858C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2295B49A-F2E1-4070-8313-05498BA6858C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2295B49A-F2E1-4070-8313-05498BA6858C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09C38252-EC20-4B8F-8E63-26856C3A3D61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09C38252-EC20-4B8F-8E63-26856C3A3D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09C38252-EC20-4B8F-8E63-26856C3A3D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09C38252-EC20-4B8F-8E63-26856C3A3D61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

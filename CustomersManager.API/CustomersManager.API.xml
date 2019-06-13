@@ -4,5 +4,40 @@
         <name>CustomersManager.API</name>
     </assembly>
     <members>
+        <member name="M:CustomersManager.API.Controllers.CustomerController.Post(CustomersManager.Business.DTOs.CustomerDTO)">
+            <summary>
+            Método para Inserir novos clientes
+            </summary>
+            <param name="customer">Objeto contendo informações do cliente</param>
+            <returns>Retorna status code 201 se executado com sucesso, caso contrário retorna 409</returns>
+        </member>
+        <member name="M:CustomersManager.API.Controllers.CustomerController.Get">
+            <summary>
+            Método para retornar todos os clientes
+            </summary>
+            <returns>Retorna uma lista com todos os clientes</returns>
+        </member>
+        <member name="M:CustomersManager.API.Controllers.CustomerController.Get(System.String)">
+            <summary>
+            Método para buscar o cliente com o id desejado
+            </summary>
+            <param name="id">Id do cliente desejado</param>
+            <returns>Retorna o cliente com o id desejado, caso contrário retorna não encontrado</returns>
+        </member>
+        <member name="M:CustomersManager.API.Controllers.CustomerController.Put(System.String,CustomersManager.Business.DTOs.CustomerDTO)">
+            <summary>
+            Método para atualizar o cliente com o id desejado
+            </summary>
+            <param name="id">Id do cliente desejado</param>
+            <param name="customer">Objeto contendo informações do cliente</param>
+            <returns>Retorna status code 200 se executado com sucesso, caso contrário retorna não encontrado</returns>
+        </member>
+        <member name="M:CustomersManager.API.Controllers.CustomerController.Delete(System.String)">
+            <summary>
+            Método para excluir um cliente com o id desejado
+            </summary>
+            <param name="id">Id do cliente desejado</param>
+            <returns>Retorna status code 200 se executado com sucesso, caso contrário retorna não encontrado</returns>
+        </member>
     </members>
 </doc>
